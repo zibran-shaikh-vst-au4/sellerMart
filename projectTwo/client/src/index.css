@@ -1,0 +1,53 @@
+body {
+    font-family: 'Baloo Tamma 2', cursive;
+}
+
+button {
+    font-family: 'Baloo Tamma 2', cursive;
+}
+nav {
+    font-family: 'Baloo Tamma 2', cursive;
+    /* background-image: linear-gradient(to right,#071e3d, #278ea5, #071e3d); */
+}
+.card{
+    font-family: 'Baloo Tamma 2', cursive;
+}
+
+.card:hover {
+    box-shadow: 5px 5px 10px #278ea5;
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;;
+}
+form{
+    font-family: 'Baloo Tamma 2', cursive;
+}
+
+
+.nav-link{
+    color: white;
+}
+
+.nav-link:hover{
+    color: #21e6c1;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+
+.modal{
+    font-family: 'Baloo Tamma 2', cursive;
+}
+
+th, td {
+    text-align: center;
+}
+
+
+
+.smbtn{
+    width: 40px;
+    height: 33px;
+}
+
