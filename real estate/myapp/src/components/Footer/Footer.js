@@ -5,9 +5,9 @@ class Footer extends Component {
 
     render() {
         return (
-            <div>
+            <div >
                 <div id="contact" style={{ background: '#3f4448', paddingTop: '40px' }}>
-                    <div className="container">
+                    <div className="container-fluid">
                         <div className="col-md-3">
                             <div className="row" style={{ margin: '0px' }}>
                                 <div className="section-title">
@@ -24,17 +24,17 @@ class Footer extends Component {
 
                             </div>
                         </div>
-                        <div className="col-md-3">
+                        <div className="col-md-2">
                             <div className="row" style={{ margin: '0px' }}>
                                 <div className="section-title">
                                     <h2 style={{ color: '#cabe9f' }}>Link</h2>
                                     <div>
                                         <ul>
-                                            <li><NavLink to="/home"><span style={{ fontSize: '25px', color: 'white' }}>Home</span></NavLink></li>
-                                            <li><NavLink to="/about"><span style={{ fontSize: '25px', color: 'white' }}>About</span></NavLink></li>
-                                            <li><NavLink to="/corevalues"><span style={{ fontSize: '25px', color: 'white' }}>Corevalues</span></NavLink></li>
-                                            <li><NavLink to="/projects"><span style={{ fontSize: '25px', color: 'white' }}>Projects</span></NavLink></li>
-                                            <li><NavLink to="/contact"><span style={{ fontSize: '25px', color: 'white' }}>Contact</span></NavLink></li>
+                                            <li><a href="/home"><span style={{ fontSize: '25px', color: 'white' }}>Home</span></a></li>
+                                            <li><a href="/about"><span style={{ fontSize: '25px', color: 'white' }}>About</span></a></li>
+                                            <li><a href="/corevalues"><span style={{ fontSize: '25px', color: 'white' }}>Corevalues</span></a></li>
+                                            <li><a href="/projects"><span style={{ fontSize: '25px', color: 'white' }}>Projects</span></a></li>
+                                            <li><a href="/contact"><span style={{ fontSize: '25px', color: 'white' }}>Contact</span></a></li>
 
 
                                         </ul>
@@ -44,7 +44,7 @@ class Footer extends Component {
 
                             </div>
                         </div>
-                        <div className="col-md-3">
+                        <div className="col-md-4">
                             <div className="row" style={{ margin: '0px' }}>
                                 <div className="section-title">
                                     <h2 style={{ color: '#cabe9f' }}>About Us</h2>

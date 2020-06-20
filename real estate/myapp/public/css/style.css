@@ -65,8 +65,95 @@ hr {
 	border: 0;
 }
 /* Navigation */
+/* @media (min-width: 1000px){
+.navbar-changes{
+	background-color: #3f4448;
+	
+	
+}}
+@media (min-width: 1000px){
+.navbar-transparent{
+	background-color: transparent;
+	
+		
+}}
+@media (min-width:768px){
+.navbar-transparent{
+		background-color: #3f4448;	
+			
+	}
+}
+@media (min-width:768px){
+	.navbar-changes{
+			background-color: #3f4448;	
+				
+		}
+	
+}
+@media (max-width:600px){
+	.navbar-changes{
+			background-color: #3f4448;	
+				
+		}
+	
+}
+@media (max-width:600px){
+	.navbar-transparent{
+			background-color: #3f4448;	
+				
+		}
+	}
 
-#menu .dropbtn {
+
+ @media (max-width: 600px){
+#nav-link{
+	color: #FFFFFF;
+	
+}
+ }
+ @media (min-width: 768px){
+	#nav-link{
+		color: #FFFFFF;
+		font-size:18px;
+		white-space: nowrap;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+		font-weight: 600;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		padding: 15px;
+	}
+	 }
+	 @media (min-width: 1000px){
+		#nav-link{
+			color: #FFFFFF;
+			font-size:18px;
+			white-space: nowrap;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+			font-weight: 600;
+			text-transform: uppercase;
+			letter-spacing: 2px;
+			padding: 15px;
+		}
+		 } */
+	 @media (min-width: 1100px){
+			#nav-link{
+				color: #FFFFFF;
+				font-size:18px;
+				white-space: nowrap;
+				padding-top: 10px;
+				padding-bottom: 10px;
+				font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+				font-weight: 600;
+				text-transform: uppercase;
+				letter-spacing: 2px;
+				padding: 15px;
+			}
+		}
+/* #menu .dropbtn {
  
 	font-family: 'Marcellus SC',serif;
     text-transform: uppercase;
@@ -195,7 +282,7 @@ hr {
 	text-transform: uppercase;
 	color: #fff;
 	background-color: #cabe9f;
-	/* background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%); */
+	
 	padding: 14px 34px;
 	letter-spacing: 1px;
 	margin: 0;
@@ -219,19 +306,19 @@ hr {
 a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
 	outline: none;
 	outline-offset: none;
-}
+} */
 /* Header Section */
-.intro {
-	display: table;
-	width: 100%;
-	padding: 0;
-	background: url(../img/banner-2.jpg) center center no-repeat;
-	background-color: #e5e5e5;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-	-o-background-size: cover;
-}
+	/*  .intro {
+		display: table;
+		width: 100%;
+		padding: 0;
+		background: url(../img/banner-2.jpg) center center no-repeat;
+		background-color: #e5e5e5;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		background-size: cover;
+		-o-background-size: cover;
+	} */
 .intro .overlay {
 	background: rgba(0,0,0,0.2);
 }
@@ -282,48 +369,13 @@ header .intro-text {
 #about {
 	padding: 140px 0;
 }
-#about h3 {
-	font-size: 22px;
-	margin: 0 0 20px 0;
-}
-#about h2 {
-	position: relative;
-	margin-bottom: 15px;
-	padding-bottom: 15px;
-}
-#about h2::after {
-	position: absolute;
-	content: "";
-	background-color: #cabe9f;
-	height: 4px;
-	width: 60px;
-	bottom: 0;
-	left: 50%;
-}
-#about .about-text li {
-	margin-bottom: 6px;
-	margin-left: 6px;
-	list-style: none;
-	padding: 0;
-}
-#about .about-text li:before {
-	content: '\f00c';
-	font-family: 'Quattrocento Sans', sans-serif;
-	color: #cabe9f;
-	font-size: 11px;
-	font-weight: 300;
-	padding-right: 8px;
-}
-#about img {
-	width: 520px;
-	margin-top: 10px;
-	background: #fff;
-	border-right: 0;
-	box-shadow: 0 0 50px rgba(0,0,0,0.06);
-}
-#about p {
-	line-height: 24px;
-	margin: 30px 0;
+.about-para{
+	font-size: 1rem;
+	font-family: "Montserrat",Sans-serif;
+	color:#9EA0A6;
+	letter-spacing: .35px;
+	font-weight: 400;
+	line-height: 1.857;
 }
 
 /* Project Section */
@@ -556,24 +608,7 @@ header .intro-text {
 	font-weight: 600;
 	color: #666;
 }
-/* Team Section */
-#team {
-	padding: 140px 0;
-}
-#team h4 {
-	margin: 5px 0;
-}
-#team .team-img {
-	width: 240px;
-}
-#team .thumbnail {
-	background: transparent;
-	border: 0;
-}
-#team .thumbnail .caption {
-	padding: 10px 0 0 0;
-	color: #888;
-}
+
 /* Contact Section */
 #contact {
 	padding: 140px 0 60px 0;
@@ -666,6 +701,16 @@ color: #777;
 .form-control:-ms-input-placeholder {
 color: #777;
 }
+@media (min-width: 768px){
+#contact .container-fluid{
+	display: flex;
+	
+}}
+@media (min-width: 768px){
+	#contact .container{
+		display: flex;
+		
+	}}
 #contact .contact-item {
 	margin: 20px 0;
 }
@@ -703,7 +748,7 @@ color: #777;
 }
 /* Footer Section*/
 #footer {
-	background: #f6f6f6;
+	background:rgb(63, 68, 72);
 	padding: 30px 0;
 }
 #footer p {

@@ -1,6 +1,9 @@
 import React, { Component } from 'react'
 
 class Corevalues extends Component {
+    componentDidMount() {
+        
+    }
     render() {
         return (
             <div id="services" className="text-center">
