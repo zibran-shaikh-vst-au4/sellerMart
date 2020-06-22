@@ -3,18 +3,27 @@ import React, { Component } from 'react'
 class Projects extends Component {
 
     componentDidMount() {
-        
+
     }
     render() {
         return (
             <div id="project">
+                <img className="shared-image"
+                    style={{ maxWidth: '100%', minHeight: '300px' }}
+                    src="https://demo2wpopal.b-cdn.net/maisonco/wp-content/uploads/2018/12/bg-breadcrumb.jpg">
+
+                </img>
                 <div className="container">
-                    <div className="row">
-                        <div className="col-xs-12 col-md-6"> <img src="img/project.jpg" className="img-responsive" alt="" /> </div>
+                    <div className="row" style={{marginTop:'100px'}}>
+                        <div className="col-xs-12 col-md-6"> <img src="img/project.jpg" className="img-responsive " id="img-project" /> </div>
                         <div className="col-xs-12 col-md-6">
                             <div className="project-text">
                                 <h2>Projects</h2>
-                                <p className="text-justify">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+                                <p className="text-justify">
+                                    Presenting Vengurlekars Chaitra, exclusive living in a world-class gated community, near Andheri Sports Complex, minutes from the airport and Azad nagar metro station, and a short drive from BKC.The Art Deco buildings have thoughtfully planned 2 and 3 bedroom residences.
+
+                                    These lavish homes come with the most superior internal finishes. The grand clubhouse includes a fully equipped gym, heated indoor pool and much more. A spectacular landscape spread over 100,000 sq. ft. includes Mumbai’s first private treetop walkway, multiple swimming pools and more. With all this at your disposal, you’ll agree, this truly is celebrity living.
+                                </p>
 
                                 <div className="contact-info">
                                     <div className="contact-item">

@@ -8,15 +8,20 @@ class Potential extends Component {
     render() {
         return (
             <div id="about">
+                <img className="shared-image"
+                    style={{ maxWidth: '100%', minHeight: '300px' }}
+                    src="https://demo2wpopal.b-cdn.net/maisonco/wp-content/uploads/2018/12/bg-breadcrumb.jpg">
+
+                </img>
                 <div className="container">
-                    <div className="row">
+                    <div className="row" style={{ margin: '100px' }}>
                         {/* <div className="col-xs-12 col-md-6"> <img src="img/about.jpg" className="img-responsive" alt="" /> </div> */}
                         <div className="col-xs-12 col-md-12">
                             <div className="about-text">
                                 <div className="section-title text-center">
                                     <h2>Potential of Redevelopment</h2>
 
-                                    <p className="text-justify">Benefits of redevelopment and why it is vital, towards meeting the housing demand of a city like Mumbai.
+                                    <p className="text-justify about-para mt-5">Benefits of redevelopment and why it is vital, towards meeting the housing demand of a city like Mumbai.
 
                                     Redevelopment, which refers to the process of reconstruction of residential/ commercial premises, by demolishing an existing structure and constructing a new structure in its place, has emerged as a useful option for developers / tenants.
 
@@ -25,8 +30,8 @@ class Potential extends Component {
                                     For redevelopment, builder enters into development agreement with society or Landlords and entering into such development agreement does not vest any title of the land in the favour of developer, but merely authorizes the builder to develop the land.
 
 The redevelopment of the old building is indeed a huge and arduous task but it is not at all complicated if the society members/tenants co-operate and follow the correct procedure.</p>
-                                    <h4 style={{ textAlign: 'left' }}>Why is redevelopment required ?</h4>
-                                    <p className="text-justify">Redevelopment is a continuous process of urban renewal. Cities like Mumbai have grown enormously and as a result, there is a dearth of land in the city.
+                                    <h4 className="mt-5" style={{ textAlign: 'left' }}>Why is redevelopment required ?</h4>
+                                    <p className="text-justify about-para">Redevelopment is a continuous process of urban renewal. Cities like Mumbai have grown enormously and as a result, there is a dearth of land in the city.
 
                                     The only other alternative, for accommodating the increasing demand for housing at all levels, is through vertical growth. However, this will require vastly improved transport facilities and civic infrastructure.
 

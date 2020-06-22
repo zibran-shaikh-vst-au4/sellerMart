@@ -10,9 +10,9 @@ class Navigation extends Component {
     componentDidMount = () => {
         
         window.addEventListener('scroll', ()=>{
-            const isTop = window.scrollY > 300;
+            const isTop = window.scrollY > 200;
             console.log('istop', isTop)
-            const nav = document.getElementById('navv');
+            
             if(isTop){
                 this.setState({
                     scroll: true
@@ -35,8 +35,8 @@ class Navigation extends Component {
 
             <Fragment>
 
-                <Navbar id="navv"  expand="lg"  className={scroll? 'bg-dark' : "bg-dark"}  >
-                    <Navbar.Brand className="nav-logo" href="/home" className='p-3 '>
+                <Navbar  expand="lg" fixed="top" className={scroll? 'nav-scroll ' : "nav-nonscroll "}  >
+                    <Navbar.Brand className="nav-logo" href="/home" className='p-3 ml-5'>
                         <img src="img/logo.png" width='180' />
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />

@@ -8,15 +8,20 @@ class List extends Component {
     render() {
         return (
             <div id="about">
+                <img className="shared-image"
+                    style={{ maxWidth: '100%', minHeight: '300px' }}
+                    src="https://demo2wpopal.b-cdn.net/maisonco/wp-content/uploads/2018/12/bg-breadcrumb.jpg">
+
+                </img>
                 <div className="container">
-                    <div className="row">
+                    <div className="row" style={{ margin: '100px' }}>
                         {/* <div className="col-xs-12 col-md-6"> <img src="img/about.jpg" className="img-responsive" alt="" /> </div> */}
                         <div className="col-xs-12 col-md-12">
                             <div className="about-text">
                                 <h3>List of Documents Required From The Societies For Redevelopment :</h3>
                                 <div className="list-style">
-                                    <div className="col-lg-12 col-sm-12 col-xs-12">
-                                        <ul>
+                                    <div className="col-lg-12 col-sm-12 col-xs-12 mt-5">
+                                        <ul className="text-justify about-para">
 
                                             <li>Society registration certificate.</li>
                                             <li>Approved building plan.</li>
