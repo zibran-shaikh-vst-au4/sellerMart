@@ -19,7 +19,7 @@ class Benefits extends Component {
                         <div className="col-xs-12 col-md-12">
                             <div className="about-text">
                                 <div className="section-title text-center">
-                                    <h2>Benefits of Redevelopment</h2>
+                                    <h3>Benefits of Redevelopment</h3>
                                     <h4 className="mt-5" style={{ textAlign: 'left' }}>Benefits of redevelopment, to developers and tenants</h4>
                                     <p className="text-justify about-para">Builders/ developers, who opt to purchase land and develop the same, incur huge stamp duty cost, vis-vis transfer of the land. However, when it comes to redevelopment of old buildings, the stamp duty is reduced by a significant extent and this acts as a major benefit for developers.
 

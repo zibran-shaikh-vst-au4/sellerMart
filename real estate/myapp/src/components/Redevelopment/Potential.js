@@ -19,7 +19,7 @@ class Potential extends Component {
                         <div className="col-xs-12 col-md-12">
                             <div className="about-text">
                                 <div className="section-title text-center">
-                                    <h2>Potential of Redevelopment</h2>
+                                    <h3>Potential of Redevelopment</h3>
 
                                     <p className="text-justify about-para mt-5">Benefits of redevelopment and why it is vital, towards meeting the housing demand of a city like Mumbai.
 

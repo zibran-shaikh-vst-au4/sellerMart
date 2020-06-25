@@ -14,7 +14,7 @@ class Tips extends Component {
                         <div className="col-xs-12 col-md-12">
                             <div className="faqs-text">
                                 <div className="section-title text-center">
-                                    <h2>Buying Tips</h2>
+                                    <h3>Buying Tips</h3>
                                     <h3>The first step towards buying a property starts from being able to identify the one that suits your needs and fits your budget. It is important to select the property depending on following criteria:</h3>
 
                                     <details style={{ textAlign: 'left' }}>

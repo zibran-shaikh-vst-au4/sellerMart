@@ -8,12 +8,12 @@ class Footer extends Component {
         return (
             <Fragment>
             <div id="footer">
-                <div className="container  mt-5 text-center">
+                <div className="container mt-5 text-center">
                     <div className="row">
                         <div className="col-md-12" style={{ color: 'white' }}>
-                            <h3 className="display-5 " style={{ fontFamily: 'DIN-Medium',color:'#D0A24C' }}>ARE YOU INTERESTED</h3>
-                            <h4 className="display-4" style={{ fontFamily: 'DIN-Medium',color:'#D0A24C'}}>IT'S TIME TO DISCOVER</h4>
-                            <h3 className="display-5" style={{ fontFamily: 'DIN-Medium',color:'#D0A24C'}}>VENGURLEKARS CHAITRA</h3>
+                            
+                            <h4 className="display-5" style={{ fontFamily: 'DIN-Medium',color:'#D0A24C'}}>IT'S TIME TO DISCOVER</h4>
+                            <h5 className="display-5" style={{ fontFamily: 'DIN-Medium',color:'#D0A24C'}}>VENGURLEKARS CHAITRA</h5>
                         </div>
                     </div>
                 </div>
@@ -27,14 +27,14 @@ class Footer extends Component {
                             <div className="col-md-2">
 
                                 <div className="section-title ">
-                                    <h2 style={{ color:' #D0A24C' }}>Link</h2>
+                                    <h3 style={{ color:' #D0A24C' }}>Link</h3>
                                     <div>
                                         <ul>
-                                            <li><a href="/home"><span style={{ fontSize: '25px', color: 'white' }}>Home</span></a></li>
-                                            <li><a href="/about"><span style={{ fontSize: '25px', color: 'white' }}>About</span></a></li>
-                                            <li><a href="/corevalues"><span style={{ fontSize: '25px', color: 'white' }}>Corevalues</span></a></li>
-                                            <li><a href="/projects"><span style={{ fontSize: '25px', color: 'white' }}>Projects</span></a></li>
-                                            <li><a href="/contact"><span style={{ fontSize: '25px', color: 'white' }}>Contact</span></a></li>
+                                            <li><a href="/home"><span style={{ fontSize: '12px', color: 'white' }}>Home</span></a></li>
+                                            <li><a href="/about"><span style={{ fontSize: '12px', color: 'white' }}>About</span></a></li>
+                                            <li><a href="/corevalues"><span style={{ fontSize: '12px', color: 'white' }}>Corevalues</span></a></li>
+                                            <li><a href="/projects"><span style={{ fontSize: '12px', color: 'white' }}>Projects</span></a></li>
+                                            <li><a href="/contact"><span style={{ fontSize: '12px', color: 'white' }}>Contact</span></a></li>
 
                                         </ul>
                                     </div>
@@ -47,7 +47,7 @@ class Footer extends Component {
                             <div className="col-md-4">
 
                                 <div className="section-title">
-                                    <h2 style={{ color: '#D0A24C' }}>About Us</h2>
+                                    <h3 style={{ color: '#D0A24C' }}>About Us</h3>
                                     <p className="pr-5">Today, lifestyles echoes the canons achieved. Emancipated by tradition, convention or doctrines, the present-day world order is modern-day lifestyle and only the superlative fits the bill.</p>
                                     <p><span><i style={{color:'#D0A24C'}} className="fa fa-map-marker"></i></span> Google Map For Location</p>
                                 </div>
@@ -59,7 +59,7 @@ class Footer extends Component {
                             <div className="col-md-4">
 
                                 <div className="section-title">
-                                    <h2 style={{ color: '#D0A24C' }}>Address</h2>
+                                    <h3 style={{ color: '#D0A24C' }}>Address</h3>
 
 
                                     <p><span><i style={{color:'#D0A24C'}} className="fa fa-map-marker mr-2"></i>
@@ -81,10 +81,10 @@ class Footer extends Component {
                 <div className="container-fluid text-center social-media" >
                  <p>&copy; 2020 Vengurlekars . All Rights Reserved</p>
                  <div className="icons">
-                     <a className="p-2"> <i className="fa fa-facebook fa-2x"></i></a>
-                     <a className="p-2"> <i className="fa fa-twitter fa-2x"></i></a>
-                     <a className="p-2"> <i className="fa fa-instagram fa-2x"></i></a>
-                     <a className="p-2"> <i className="fa fa-whatsapp fa-2x"></i></a>
+                     <a className="p-5"> <i className="fa fa-facebook fa-1x"></i></a>
+                     <a className="p-5"> <i className="fa fa-twitter fa-1x"></i></a>
+                     <a className="p-5"> <i className="fa fa-instagram fa-1x"></i></a>
+                     <a className="p-5"> <i className="fa fa-whatsapp fa-1x"></i></a>
                  </div>
              </div>
                

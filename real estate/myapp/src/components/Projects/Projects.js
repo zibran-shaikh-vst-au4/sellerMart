@@ -18,7 +18,7 @@ class Projects extends Component {
                         <div className="col-xs-12 col-md-6"> <img src="img/project.jpg" className="img-responsive " id="img-project" /> </div>
                         <div className="col-xs-12 col-md-6">
                             <div className="project-text">
-                                <h2>Projects</h2>
+                                <h4>Projects</h4>
                                 <p className="text-justify">
                                     Presenting Vengurlekars Chaitra, exclusive living in a world-class gated community, near Andheri Sports Complex, minutes from the airport and Azad nagar metro station, and a short drive from BKC.The Art Deco buildings have thoughtfully planned 2 and 3 bedroom residences.
 
@@ -27,7 +27,7 @@ class Projects extends Component {
 
                                 <div className="contact-info">
                                     <div className="contact-item">
-                                        <h3>Contact Info</h3>
+                                        <h4>Contact Info</h4>
                                         <p><span><i className="fa fa-map-marker"></i> Address</span>VENGURLEKARS CHAITRA
                                         BUILDING NO. 26 OPP ANDHERI SPORT COMPLEX VIP GATE (NO 3) AZAD NAGAR JP ROAD ANDHERI WEST MUMBAI 400053</p>
                                     </div>

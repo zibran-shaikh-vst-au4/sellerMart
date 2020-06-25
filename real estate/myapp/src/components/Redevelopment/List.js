@@ -18,7 +18,7 @@ class List extends Component {
                         {/* <div className="col-xs-12 col-md-6"> <img src="img/about.jpg" className="img-responsive" alt="" /> </div> */}
                         <div className="col-xs-12 col-md-12">
                             <div className="about-text">
-                                <h3>List of Documents Required From The Societies For Redevelopment :</h3>
+                                <h4>List of Documents Required From The Societies For Redevelopment :</h4>
                                 <div className="list-style">
                                     <div className="col-lg-12 col-sm-12 col-xs-12 mt-5">
                                         <ul className="text-justify about-para">

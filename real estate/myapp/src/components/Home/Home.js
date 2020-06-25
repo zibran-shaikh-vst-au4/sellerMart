@@ -73,14 +73,14 @@ const Home = () => {
 
 
 
-                <div style={{ backgroundImage: 'url(https://demo2wpopal.b-cdn.net/maisonco/wp-content/uploads/2019/05/landing_bg1.png)', backgroundSize: 'cover', height: 700 }}>
+                <div style={{ backgroundImage: 'url(https://demo2wpopal.b-cdn.net/maisonco/wp-content/uploads/2019/05/landing_bg1.png)', backgroundSize: 'cover', height: 500 }}>
 
                     <div className="container" >
                         <div className="row" style={{ paddingTop: 150 }}>
 
 
                             <div className="section-title text-center">
-                                <h2 className="m-auto pb-2" style={{ borderBottom: '4px solid #D0A24C', width: '80px' }}>AboutUs</h2>
+                                <h3 className="m-auto pb-2" style={{ borderBottom: '4px solid #D0A24C', width: '80px' }}>AboutUs</h3>
                                 <p data-aos ="fade-up" className="about-para col-sm-12 col-md-12 text-center mt-5">
                                     From well-crafted residences to avant-garde commercial spaces, Vengurlekars has always delivered state-of-the-art construction that illustrates a blend between traditional and ultra-modern concepts. While Vengurlekars completely ensures safety, advanced use of technology and new-fashioned themes, we also keep a greater balance with nature and greens.
                                     The inception of Vengurlekars is an outcome from 30 years of first hand onfield & consulting experience earned by its very principal founders. Reputed Ex-serviceman, Mr. Vijay Moreshwar Vengurlekar (Director) accompanied by Ashwini Madhukar Katkar (Director) to form the very pillars of this organization. We are today considered as one of the most innovative developers and builders in Mumbai/India. Having served some of the most prestigious clientele, our founders know exactly how and what can best fit your interest.</p>
@@ -95,7 +95,7 @@ const Home = () => {
                             <div className="col-xs-12 col-md-6 " > <img src="img/project.jpg" className="img-responsive" id="img-project" style={{ boxShadow: '10px 10px 5px grey' }} /> </div>
                             <div className="col-xs-12 col-md-6">
                                 <div className="project-text">
-                                    <h2 style={{ color: '#FFFFFF' }}>Projects</h2>
+                                <h4 className="pb-2" style={{ borderBottom: '4px solid #D0A24C', width: '80px' }}>Projects</h4>
                                     <p className="text-justify">"Presenting Vengurlekars Chaitra, exclusive living in a world-class gated community, near Andheri Sports Complex, minutes from the airport and Azad nagar metro station, and a short drive from BKC.The Art Deco buildings have thoughtfully planned 2 and 3 bedroom residences.
 
 These lavish homes come with the most superior internal finishes. With all this at your disposal, you’ll agree, this truly is celebrity living."</p>

@@ -19,7 +19,7 @@ class Testimonials extends Component {
 
 
                             <h5 className="py-1 my-1" style={{color:'#D0A24C'}}>first testimonial</h5>
-                            <p className="pt-3 "style={{color:'#D0A24C'}}>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                            <p className="pt-3 "style={{color:'#D0A24C', fontSize:'12px'}}>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
 
                         </Carousel.Item>
                         <Carousel.Item className="text-center">
@@ -33,7 +33,7 @@ class Testimonials extends Component {
 
 
                             <h5 className="py-1 my-1"style={{color:'#D0A24C'}}>second testimonial</h5>
-                            <p className="pt-3 "style={{color:'#D0A24C'}}>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                            <p className="pt-3 "style={{color:'#D0A24C', fontSize:'12px'}}>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
 
                         </Carousel.Item>
                         <Carousel.Item className="text-center">
@@ -47,7 +47,7 @@ class Testimonials extends Component {
 
 
                             <h5 className="py-1 my-1"style={{color:'#D0A24C'}}>third testimonial</h5>
-                            <p className="pt-3 " style={{color:'#D0A24C'}}>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                            <p className="pt-3 " style={{color:'#D0A24C', fontSize:'12px'}}>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
 
                         </Carousel.Item>
                     </Carousel>

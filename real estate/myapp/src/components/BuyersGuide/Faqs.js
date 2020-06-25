@@ -14,7 +14,7 @@ class Faqs extends Component {
                         <div className="col-xs-12 col-md-12">
                             <div className="faqs-text">
                                 <div className="section-title text-center">
-                                    <h2>Faqs</h2>
+                                    <h3>Faqs</h3>
                                     <h3>As you buy a new home, these questions will answer all common queries about buying and owing a property in India. Use this guide to acquaint yourself with rules, laws and important information.</h3>
 
                                     <details className="text-justify mt-5">
