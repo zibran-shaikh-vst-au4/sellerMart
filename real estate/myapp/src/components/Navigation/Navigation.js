@@ -36,7 +36,7 @@ class Navigation extends Component {
             <Fragment>
 
                 <Navbar  expand="lg" fixed="top" className={scroll? 'nav-scroll ' : "nav-nonscroll "}  >
-                    <Navbar.Brand className="nav-logo" href="/home" className='p-3 ml-5'>
+                    <Navbar.Brand className="nav-logo" href="/home" className='p-3 ml-5' >
                         <img src="img/logo.png" width='180' />
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -47,18 +47,18 @@ class Navigation extends Component {
                             <Nav.Link id='nav-link' href="/corevalues">Core Values</Nav.Link>
                             <Nav.Link id='nav-link' href="/projects">Projects</Nav.Link>
 
-                            <NavDropdown id='nav-link' title="Redevelopment" >
-                                <NavDropdown.Item className="nav-dropdown" href="/benefits">Benefits</NavDropdown.Item>
-                                <NavDropdown.Divider />
-                                <NavDropdown.Item href="/potential">Potential</NavDropdown.Item>
-                                <NavDropdown.Divider />
-                                <NavDropdown.Item href="/list">List</NavDropdown.Item>
+                            <NavDropdown id='nav-link' title="Redevelopment">
+                                <NavDropdown.Item  href="/benefits" >BENEFITS</NavDropdown.Item>
+                                
+                                <NavDropdown.Item href="/potential">POTENTIAL</NavDropdown.Item>
+                               
+                                <NavDropdown.Item href="/list">LIST</NavDropdown.Item>
 
                             </NavDropdown>
                             <NavDropdown id='nav-link' title="Buyer's Guide" >
                                 <NavDropdown.Item href="/faqs">FAQS</NavDropdown.Item>
-                                <NavDropdown.Divider />
-                                <NavDropdown.Item href="/tips">Tips</NavDropdown.Item>
+                                
+                                <NavDropdown.Item href="/tips">TIPS</NavDropdown.Item>
 
                             </NavDropdown>
                             <Nav.Link id='nav-link' href="/contact">Contact Us</Nav.Link>

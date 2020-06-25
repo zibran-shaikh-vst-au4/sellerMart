@@ -1,0 +1,26 @@
+#testimonial{
+    padding: 140px 0;
+}
+#testimonial .container-fluid{
+    padding:100px;
+   
+
+}
+#testimonial .img-box{
+    width:135px;
+    height:135px;
+}
+#testimonial .carousel-indicators{
+    top:250px
+}
+#testimonial .carousel-control-prev{
+    
+    background:#D0A24C
+}
+#testimonial .carousel-control-next{
+    
+    background:#D0A24C
+   
+}
+
+

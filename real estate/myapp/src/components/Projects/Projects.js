@@ -9,8 +9,8 @@ class Projects extends Component {
         return (
             <div id="project">
                 <img className="shared-image"
-                    style={{ maxWidth: '100%', minHeight: '300px' }}
-                    src="https://demo2wpopal.b-cdn.net/maisonco/wp-content/uploads/2018/12/bg-breadcrumb.jpg">
+                    style={{ maxWidth: '100%'}}
+                    src="../img/34.jpg">
 
                 </img>
                 <div className="container">

@@ -2,6 +2,6 @@ body {
   font-family: 'Quattrocento Sans', sans-serif;
 }
 
-.active {
-  border-bottom: 2px solid #cabe9f;
+.nav-link:active {
+  border-bottom: 2px solid #D0A24C;
 }
