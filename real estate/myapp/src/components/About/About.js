@@ -14,7 +14,7 @@ class About extends Component {
 
                 </img>
                 <div className="container">
-                    <div className="row" style={{marginTop:'100px'}}>
+                    <div className="row" style={{marginTop:'50px'}}>
                         {/* <div className="col-xs-12 col-md-6"> <img src="img/about.jpg" className="img-responsive" alt="" /> </div> */}
                         <div className="col-xs-12 col-md-12">
 

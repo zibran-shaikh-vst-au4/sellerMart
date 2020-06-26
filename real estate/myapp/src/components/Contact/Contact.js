@@ -67,13 +67,13 @@ class Contact extends Component {
                 </div>
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-12 col-sm-12 col-xs-12 text-center">
+                       <div className="col-md-12 col-sm-12 col-xs-12 text-center">
 
                             <div className="section-title">
 
                                 <h3>Get In Touch</h3>
                                 <h5>Please fill out the form below to send us an email and we will get back to you as soon as possible.</h5>
-                            </div>
+                            </ div>
                             <form name="sentMessage" id="contactForm" noValidate>
                                 <div className="row">
                                     <div className="col-md-6">

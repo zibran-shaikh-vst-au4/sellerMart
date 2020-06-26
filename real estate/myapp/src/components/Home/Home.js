@@ -100,19 +100,7 @@ const Home = () => {
 
 These lavish homes come with the most superior internal finishes. With all this at your disposal, you’ll agree, this truly is celebrity living."</p>
 
-                                    <div className="contact-info">
-                                        <div className="contact-item">
-                                            <h3>Contact Info</h3>
-                                            <p><span><i className="fa fa-map-marker"></i> Address : </span>VENGURLEKARS CHAITRA
-                                    BUILDING NO. 26 OPP ANDHERI SPORT COMPLEX VIP GATE (NO 3) AZAD NAGAR JP ROAD ANDHERI WEST MUMBAI 400053</p>
-                                        </div>
-                                        <div className="contact-item">
-                                            <p><span><i className="fa fa-phone"></i> Phone :</span> +91 98200 46711, +91 98920 09454</p>
-                                        </div>
-                                        <div className="contact-item">
-                                            <p><span><i className="fa fa-envelope-o"></i> Email :</span>info@vengurlekars.net</p>
-                                        </div>
-                                    </div>
+                                   
                                 </div>
                             </div>
                         </div>
