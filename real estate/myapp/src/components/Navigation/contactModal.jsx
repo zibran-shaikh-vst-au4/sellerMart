@@ -13,7 +13,7 @@ function MyVerticallyCenteredModal(props) {
                
             </Modal.Header>
             <Modal.Body>
-                <h4>SCHEDULE A VISIT</h4>
+                <h4 className="text-center mt-2">Enquire Now</h4>
                 <form name="sentMessage" id="contactForm" noValidate>
                                 <div className="row">
                                     <div className="col-md-6">

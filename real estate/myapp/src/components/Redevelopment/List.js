@@ -1,28 +1,22 @@
 import React, { Component } from 'react'
-// import 'bootstrap/dist/css/bootstrap';
-
-// import 'materialize-css'; // It installs the JS asset only
-// import 'materialize-css/dist/css/materialize.min.css';
 
 class List extends Component {
     render() {
         return (
             <div id="about">
-               <img className="shared-image"
-                    style={{ maxWidth: '100%'}}
+                <img className="shared-image"
+                    style={{ maxWidth: '100%' }}
                     src="../img/34.jpg">
-
                 </img>
+
                 <div className="container">
-                    <div className="row" style={{ margin: '100px' }}>
-                        {/* <div className="col-xs-12 col-md-6"> <img src="img/about.jpg" className="img-responsive" alt="" /> </div> */}
+                    <div className="row mt-5 mb-5">
                         <div className="col-xs-12 col-md-12">
                             <div className="about-text">
                                 <h4>List of Documents Required From The Societies For Redevelopment :</h4>
                                 <div className="list-style">
                                     <div className="col-lg-12 col-sm-12 col-xs-12 mt-5">
                                         <ul className="text-justify about-para">
-
                                             <li>Society registration certificate.</li>
                                             <li>Approved building plan.</li>
                                             <li>Conveyance deed/ lease deed/ sale deed.</li>

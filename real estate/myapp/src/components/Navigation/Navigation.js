@@ -13,7 +13,7 @@ class Navigation extends Component {
     componentDidMount = () => {
 
         window.addEventListener('scroll', () => {
-            const isTop = window.scrollY > 200;
+            const isTop = window.scrollY > 150;
             console.log('istop', isTop)
 
             if (isTop) {
@@ -39,8 +39,8 @@ class Navigation extends Component {
             <Fragment>
 
                 <Navbar expand="lg" fixed="top" className={scroll ? 'nav-scroll ' : "nav-nonscroll "}  >
-                    <Navbar.Brand className="nav-logo" href="/home" className='p-3 ml-5' >
-                        <img src="img/logo.png" width='180' />
+                    <Navbar.Brand className="nav-logo" href="/home" className='ml-2' >
+                        <img src="img/logo.png" id="logo-img" />
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
@@ -65,7 +65,9 @@ class Navigation extends Component {
 
                             </NavDropdown>
                             <Nav.Link id='nav-link' href="/contact">Contact Us</Nav.Link>
-                            <Button onClick={() => this.setState({modalShow: true})}variant="outline-light" size="lg" style={{ color: '#D0A24C', border: '2px solid #D0A24C',marginLeft:'100px', fontSize:'14px'}}>SCHEDULE A VISIT</Button>
+                            <div id="bttn-pad">
+                                <Button onClick={() => this.setState({ modalShow: true })} variant="outline-light" size="lg" style={{ color: '#D0A24C', border: '2px solid #D0A24C', fontSize: '12px' }}>SCHEDULE A VISIT</Button>
+                            </div>
                         </Nav>
 
                     </Navbar.Collapse>
@@ -73,7 +75,7 @@ class Navigation extends Component {
 
                 <MyVerticallyCenteredModal
                     show={this.state.modalShow}
-                    onHide={() => this.setState({modalShow: false})}
+                    onHide={() => this.setState({ modalShow: false })}
                 />
 
             </Fragment >

@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
-import './testimonial.css'
 import Carousel from 'react-bootstrap/Carousel'
 
 class Testimonials extends Component {
     render() {
         return (
             <div id="testimonial">
-                <div className="container-fluid">
+                <div className="container-fluid mt-4">
                     <Carousel>
                         <Carousel.Item className="text-center">
                             <div className="img-box border rounded-circle m-auto">
@@ -18,8 +17,8 @@ class Testimonials extends Component {
                             </div>
 
 
-                            <h5 className="py-1 my-1" style={{color:'#D0A24C'}}>first testimonial</h5>
-                            <p className="pt-3 "style={{color:'#D0A24C', fontSize:'12px'}}>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                            <h5 className="py-1 my-1" style={{ color: '#D0A24C' }}>first testimonial</h5>
+                            <p className="pt-3 " style={{ color: '#D0A24C', fontSize: '12px' }}>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
 
                         </Carousel.Item>
                         <Carousel.Item className="text-center">
@@ -32,8 +31,8 @@ class Testimonials extends Component {
                             </div>
 
 
-                            <h5 className="py-1 my-1"style={{color:'#D0A24C'}}>second testimonial</h5>
-                            <p className="pt-3 "style={{color:'#D0A24C', fontSize:'12px'}}>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                            <h5 className="py-1 my-1" style={{ color: '#D0A24C' }}>second testimonial</h5>
+                            <p className="pt-3 " style={{ color: '#D0A24C', fontSize: '12px' }}>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
 
                         </Carousel.Item>
                         <Carousel.Item className="text-center">
@@ -46,8 +45,8 @@ class Testimonials extends Component {
                             </div>
 
 
-                            <h5 className="py-1 my-1"style={{color:'#D0A24C'}}>third testimonial</h5>
-                            <p className="pt-3 " style={{color:'#D0A24C', fontSize:'12px'}}>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                            <h5 className="py-1 my-1" style={{ color: '#D0A24C' }}>third testimonial</h5>
+                            <p className="pt-3 " style={{ color: '#D0A24C', fontSize: '12px' }}>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
 
                         </Carousel.Item>
                     </Carousel>

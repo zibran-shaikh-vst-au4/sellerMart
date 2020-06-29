@@ -1,21 +1,16 @@
 import React, { Component } from 'react'
-// import 'bootstrap/dist/css/bootstrap';
-
-// import 'materialize-css'; // It installs the JS asset only
-// import 'materialize-css/dist/css/materialize.min.css';
 
 class Potential extends Component {
     render() {
         return (
             <div id="about">
-              <img className="shared-image"
-                    style={{ maxWidth: '100%'}}
+                <img className="shared-image"
+                    style={{ maxWidth: '100%' }}
                     src="../img/34.jpg">
 
                 </img>
                 <div className="container">
-                    <div className="row" style={{ margin: '100px' }}>
-                        {/* <div className="col-xs-12 col-md-6"> <img src="img/about.jpg" className="img-responsive" alt="" /> </div> */}
+                    <div className="row mt-5 mb-5">
                         <div className="col-xs-12 col-md-12">
                             <div className="about-text">
                                 <div className="section-title text-center">
@@ -29,8 +24,8 @@ class Potential extends Component {
 
                                     For redevelopment, builder enters into development agreement with society or Landlords and entering into such development agreement does not vest any title of the land in the favour of developer, but merely authorizes the builder to develop the land.
 
-The redevelopment of the old building is indeed a huge and arduous task but it is not at all complicated if the society members/tenants co-operate and follow the correct procedure.</p>
-                                    <h4 className="mt-5" style={{ textAlign: 'left' }}>Why is redevelopment required ?</h4>
+                                    The redevelopment of the old building is indeed a huge and arduous task but it is not at all complicated if the society members/tenants co-operate and follow the correct procedure.</p>
+                                    <h4 className="mt-5">Why is redevelopment required ?</h4>
                                     <p className="text-justify about-para">Redevelopment is a continuous process of urban renewal. Cities like Mumbai have grown enormously and as a result, there is a dearth of land in the city.
 
                                     The only other alternative, for accommodating the increasing demand for housing at all levels, is through vertical growth. However, this will require vastly improved transport facilities and civic infrastructure.
@@ -45,7 +40,7 @@ The redevelopment of the old building is indeed a huge and arduous task but it i
 
                                     Old buildings also have other drawbacks such as lack of security and maintenance services, absence of common facilities like gymnasium and society office, unavailability of proper open area for children in the compound, leakage problems, absence of elevators, poor interior planning of rooms and low resale value due to the poor condition of the buildings.
 
-</p>
+                                </p>
                                 </div>
                             </div>
                         </div>

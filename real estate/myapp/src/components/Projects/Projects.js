@@ -1,20 +1,16 @@
 import React, { Component } from 'react'
 
 class Projects extends Component {
-
-    componentDidMount() {
-
-    }
     render() {
         return (
             <div id="project">
                 <img className="shared-image"
-                    style={{ maxWidth: '100%'}}
+                    style={{ maxWidth: '100%' }}
                     src="../img/34.jpg">
 
                 </img>
                 <div className="container">
-                    <div className="row" style={{marginTop:'100px'}}>
+                    <div className="row mt-5 mb-5">
                         <div className="col-xs-12 col-md-6"> <img src="img/project.jpg" className="img-responsive " id="img-project" /> </div>
                         <div className="col-xs-12 col-md-6">
                             <div className="project-text">
@@ -28,7 +24,7 @@ class Projects extends Component {
                                 <div className="contact-info">
                                     <div className="contact-item">
                                         <h4>Contact Info</h4>
-                                        <p><span><i className="fa fa-map-marker"></i> Address</span>VENGURLEKARS CHAITRA
+                                        <p><span><i className="fa fa-map-marker"></i> Address</span> VENGURLEKARS CHAITRA
                                         BUILDING NO. 26 OPP ANDHERI SPORT COMPLEX VIP GATE (NO 3) AZAD NAGAR JP ROAD ANDHERI WEST MUMBAI 400053</p>
                                     </div>
                                     <div className="contact-item">

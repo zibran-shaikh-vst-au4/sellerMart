@@ -1,3 +1,4 @@
+
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 
@@ -13,66 +14,64 @@ class Contact extends Component {
                     src="../img/34.jpg">
 
                 </img>
-               
-                <div className="container contact-page" style={{ marginTop: '50px', marginBottom:'50px' }}>
-                
-                        <div className="box">
-                            <div className="icon">
-                                <i className="fa fa-phone" aria-hidden='true'> </i>
-                            </div>
-                            <div className="content">
-                                <h4>Phone</h4>
-                                <p>+91 98200 46711 </p>
-                                <p> +91 98920 09454</p>
 
-                            </div>
+                <div className="container contact-page justify-center mt-1" id="box">
+
+                    <div className="box">
+                        <div className="icon">
+                            <i className="fa fa-phone" aria-hidden='true'> </i>
+                        </div>
+                        <div className="content">
+                            <h4>Phone</h4>
+                            <p>+91 98200 46711 </p>
+                            <p> +91 98920 09454</p>
 
                         </div>
 
-                        <div className="box">
-                            <div className="icon">
-                                <i className="fa fa-map-marker" aria-hidden='true'> </i>
-                            </div>
-                            <div className="content">
-                                <h4>Address</h4>
-                                <p> ANDHERI WEST MUMBAI 400053</p>
+                    </div>
 
-                            </div>
+                    <div className="box">
+                        <div className="icon">
+                            <i className="fa fa-map-marker" aria-hidden='true'> </i>
                         </div>
-                        <div className="box">
-                            <div className="icon">
-                                <i className="fa fa-envelope-o " aria-hidden='true' > </i>
-                            </div>
-                            <div className="content">
-                                <h4>Email</h4>
-                                <p>info@vengurlekars.net</p>
-
-                            </div>
+                        <div className="content">
+                            <h4>Address</h4>
+                            <p> ANDHERI WEST MUMBAI 400053</p>
 
                         </div>
-                        
+                    </div>
+                    <div className="box">
+                        <div className="icon">
+                            <i className="fa fa-envelope-o " aria-hidden='true' > </i>
+                        </div>
+                        <div className="content">
+                            <h4>Email</h4>
+                            <p>info@vengurlekars.net</p>
 
-                    
+                        </div>
+
+                    </div>
+
+
+
                 </div>
-                <div className="container-fluid" >
-                    <div className="row">
-                        <div className="col-md-12 col-sm-12 col-xs-12" >
-                            <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.479110920711!2d72.83291861405456!3d19.1304940552306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b714d2555ba7%3A0x6921bec675b097b0!2sVENGURLEKARS%20SHREESAI%20BUILDERS%20AND%20DEVELOPERS%20PRIVATE%20LIMITED!5e0!3m2!1sen!2sin!4v1592774063998!5m2!1sen!2sin"
-                                frameBorder="0" width="1650" height='300'
-                            ></iframe>
-                        </div>
-
+                <div className="container">
+                    <div className="container-iframes">
+                        <iframe className="responsive-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.479110920711!2d72.83291861405456!3d19.1304940552306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b714d2555ba7%3A0x6921bec675b097b0!2sVENGURLEKARS%20SHREESAI%20BUILDERS%20AND%20DEVELOPERS%20PRIVATE%20LIMITED!5e0!3m2!1sen!2sin!4v1592774063998!5m2!1sen!2sin"
+                            frameBorder="0"
+                        ></iframe>
 
                     </div>
                 </div>
-                <div className="container">
-                    <div className="row">
-                       <div className="col-md-12 col-sm-12 col-xs-12 text-center">
+
+                <div className="container mt-5">
+                    <div className="row" style={{width:"100%"}}>
+                        <div className="col-md-12 col-sm-12 col-xs-12 text-center">
 
                             <div className="section-title">
 
                                 <h3>Get In Touch</h3>
-                                <h5>Please fill out the form below to send us an email and we will get back to you as soon as possible.</h5>
+                                {/* <h5>Please fill out the form below to send us an email and we will get back to you as soon as possible.</h5> */}
                             </ div>
                             <form name="sentMessage" id="contactForm" noValidate>
                                 <div className="row">

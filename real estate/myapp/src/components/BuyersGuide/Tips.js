@@ -4,13 +4,9 @@ class Tips extends Component {
     render() {
         return (
             <div id="faqs">
-               <img className="shared-image"
-                    style={{ maxWidth: '100%'}}
-                    src="../img/34.jpg">
-
-                </img>
+                <img className="shared-image" src="../img/34.jpg" alt="images for tips" style={{ maxWidth: '100%' }} />
                 <div className="container">
-                    <div className="row"  style={{ margin: '100px' }}>
+                    <div className="row mt-5 mb-5">
                         <div className="col-xs-12 col-md-12">
                             <div className="faqs-text">
                                 <div className="section-title text-center">
@@ -19,13 +15,13 @@ class Tips extends Component {
 
                                     <details style={{ textAlign: 'left' }}>
                                         <summary className="text-justify about-para" style={{ textAlign: 'left', color: '#D0A24C' }}>Location of site</summary>
-                                       <p className="about-para"> While choosing the location, you need to keep the following parameters in mind like proximity to the main roads, bus stops, railway lines, transportation services, civic amenities like educational institutions, park, police station, temples, community hall, hospitals, and auditorium within reach.</p>
-</details>
+                                        <p className="about-para"> While choosing the location, you need to keep the following parameters in mind like proximity to the main roads, bus stops, railway lines, transportation services, civic amenities like educational institutions, park, police station, temples, community hall, hospitals, and auditorium within reach.</p>
+                                    </details>
 
                                     <details style={{ textAlign: 'left' }}>
                                         <summary className="text-justify about-para" style={{ textAlign: 'left', color: '#D0A24C' }}>Affordability</summary>
                                         <p className="about-para">  Does the location fit your budget?</p>
-</details>
+                                    </details>
                                 </div>
                             </div>
                         </div>
