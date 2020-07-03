@@ -22,20 +22,20 @@ const Home = () => {
 
                         <Carousel>
 
-                            <Carousel.Item className="animate__animated animate__flip">
+                            <Carousel.Item className="animate__animated animate__flip animate__delay-2s">
                                 <img
                                     className="d-block w-100"
-                                    src="../img/85.jpg"
+                                    src="/img/terrace view.jpg"
                                     alt="First slide"
                                 />
                                 <Carousel.Caption className="animate__animated animate__lightSpeedInLeft animate__delay-2s">
 
                                 </Carousel.Caption>
                             </Carousel.Item>
-                            <Carousel.Item className="animate__animated animate__flipInY">
+                            <Carousel.Item className="animate__animated animate__flipInY ">
                                 <img
                                     className="d-block w-100"
-                                    src="../img/65455.jpg"
+                                    src="/img/compound walls views.jpg"
                                 />
 
                                 <Carousel.Caption className="animate__animated animate__flipInY animate__delay-2s">
@@ -64,7 +64,7 @@ const Home = () => {
                 <div id="project-home">
                     <div className="container">
                         <div className="row mt-5 mb-5">
-                            <div className="col-xs-12 col-md-6"><img src="img/project.jpg" className="img-responsive" id="img-project-home" /></div>
+                            <div className="col-xs-12 col-md-6"><img src="img/day view.jpg" className="img-responsive" id="img-project-home" /></div>
                             <div className="col-xs-12 col-md-6">
                                 <div className="project-text">
                                     <h4 className="pb-2">Projects</h4>

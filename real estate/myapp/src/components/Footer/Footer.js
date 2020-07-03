@@ -8,7 +8,7 @@ class Footer extends Component {
         return (
             <Fragment>
                 <div id="footer">
-                    <div className="container mt-1 text-center">
+                   {/*  <div className="container mt-1 text-center">
                         <div className="row">
                             <div className="col-md-12" style={{ color: 'white' }}>
 
@@ -16,13 +16,13 @@ class Footer extends Component {
                                 <h5 className="display-5" style={{ fontFamily: 'DIN-Medium', color: '#D0A24C' }}>VENGURLEKARS CHAITRA</h5>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
 
 
 
 
-                    <div id="contact" style={{ background: '#231f20', padding: '50px 50px 0px' }}>
-                        <div className="container" >
+                    <div id="contact" style={{ background: '#231f20', padding: '0px' }}>
+                        {/* <div className="container" >
                             <div className="row mb-1">
                                 <div className="col-md-3 mx-auto" >
 
@@ -53,37 +53,82 @@ class Footer extends Component {
                                         <h5 style={{ color: '#D0A24C' }}>Address</h5>
 
 
-                                        <p style={{fontSize:"14px"}}><span><i style={{ color: '#D0A24C' }} className="fa fa-map-marker mr-2"></i>
+                                        <p style={{ fontSize: "14px" }}><span><i style={{ color: '#D0A24C' }} className="fa fa-map-marker mr-2"></i>
                                         </span>Vengurlekars Chaitra
                                         Builidng No. 26 opp Andheri Sport Complex vip gate (No 3)
                                         Azad Nagar JP Road Andheri West Mumbai 400053</p>
 
                                         <div className="contact-item">
-                                            <p style={{fontSize:"14px"}}><span><i className="fa fa-phone"></i></span>+91 98200 46711, +91 98920 09454</p>
+                                            <p style={{ fontSize: "14px" }}><span><i className="fa fa-phone"></i></span>+91 98200 46711, +91 98920 09454</p>
                                         </div>
                                         <div className="contact-item">
-                                            <p style={{fontSize:"14px"}}><span><i className="fa fa-envelope-o"></i></span>info@vengurlekars.net</p>
+                                            <p style={{ fontSize: "14px" }}><span><i className="fa fa-envelope-o"></i></span>info@vengurlekars.net</p>
                                         </div>
                                     </div>
                                 </div>
 
-                                <div className="col-md-4 social-media" >
+                                
+                            </div>
+                        </div>*/}
+                        <div className="container contact-page justify-center" id="box">
 
-                                    <h5 className="text-center" style={{ color: '#D0A24C' }}>Social Avenues</h5>
-                                    <div className="icons text-center offset-md-2 ">
+                            <div className="box">
+                                <div className="icon">
+                                    <i className="fa fa-phone" aria-hidden='true'> </i>
+                                </div>
+                                <div className="content">
+                                    
+                                    <p>+91 98200 46711 </p>
+                                    <p> +91 98920 09454</p>
 
-                                        <a className="p-4" > <i className="fa fa-facebook fa-1x"></i></a>
-                                        <a className="p-4"> <i className="fa fa-twitter fa-1x"></i></a>
-                                        <a className="p-4"> <i className="fa fa-instagram fa-1x"></i></a>
-                                        <a className="p-4"> <i className="fa fa-whatsapp fa-1x"></i></a>
-                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div className="box">
+                                <div className="icon">
+                                    <i className="fa fa-map-marker" aria-hidden='true'> </i>
+                                </div>
+                                <div className="content">
+                                    
+                                    <p>
+                                        VENGURLEKARS CHAITRA
+                                        BLDG-26
+                                        OPP ANDHERI SPORT COMPLEX
+                                        AZAD NAGAR
+                                        JP ROAD
+                                        ANDHERI (W)
+                                    MUMBAI 53.</p>
 
                                 </div>
                             </div>
+                            <div className="box">
+                                <div className="icon">
+                                    <i className="fa fa-envelope-o " aria-hidden='true' > </i>
+                                </div>
+                                <div className="content">
+                                    
+                                    <p>info@vengurlekars.net</p>
+
+                                </div>
+
+                            </div>
+
+
+
                         </div>
                     </div>
 
-                    <div className="container-fluid text-center mt-5" >
+                    <div className="container-fluid text-center social-media" >
+                        <h5 style={{ color: '#D0A24C' }}>Social Avenues</h5>
+                        <div className="icons text-center mb-5">
+
+                            <a className="p-4" > <i className="fa fa-facebook fa-1x"></i></a>
+                            <a className="p-4"> <i className="fa fa-twitter fa-1x"></i></a>
+                            <a className="p-4"> <i className="fa fa-instagram fa-1x"></i></a>
+                            <a className="p-4"> <i className="fa fa-whatsapp fa-1x"></i></a>
+                        </div>
+
                         <p>&copy; 2020 Vengurlekars . All Rights Reserved</p>
 
                     </div>

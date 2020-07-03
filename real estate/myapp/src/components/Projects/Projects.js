@@ -6,13 +6,13 @@ class Projects extends Component {
             <div id="project">
                 <img className="shared-image"
                     style={{ maxWidth: '100%' }}
-                    src="../img/34.jpg">
+                    src="../img/34.jpg"> 
 
                 </img>
                 <div className="container">
                     <div className="row mt-5 mb-5">
-                        <div className="col-xs-12 col-md-6"> <img src="img/project.jpg" className="img-responsive " id="img-project" /> </div>
-                        <div className="col-xs-12 col-md-6">
+                        <div className="col-xs-12 col-sm-12 col-md-6"> <img src="img/day view.jpg" className="img-responsive " id="img-project" /> </div>
+                        <div className="col-xs-12 col-sm-12 col-md-6">
                             <div className="project-text">
                                 <h4>Projects</h4>
                                 <p className="text-justify">
@@ -21,19 +21,7 @@ class Projects extends Component {
                                     These lavish homes come with the most superior internal finishes. The grand clubhouse includes a fully equipped gym, heated indoor pool and much more. A spectacular landscape spread over 100,000 sq. ft. includes Mumbai’s first private treetop walkway, multiple swimming pools and more. With all this at your disposal, you’ll agree, this truly is celebrity living.
                                 </p>
 
-                                <div className="contact-info">
-                                    <div className="contact-item">
-                                        <h4>Contact Info</h4>
-                                        <p><span><i className="fa fa-map-marker"></i> Address</span> VENGURLEKARS CHAITRA
-                                        BUILDING NO. 26 OPP ANDHERI SPORT COMPLEX VIP GATE (NO 3) AZAD NAGAR JP ROAD ANDHERI WEST MUMBAI 400053</p>
-                                    </div>
-                                    <div className="contact-item">
-                                        <p><span><i className="fa fa-phone"></i> Phone</span> +91 98200 46711, +91 98920 09454</p>
-                                    </div>
-                                    <div className="contact-item">
-                                        <p><span><i className="fa fa-envelope-o"></i> Email </span>info@vengurlekars.net</p>
-                                    </div>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>

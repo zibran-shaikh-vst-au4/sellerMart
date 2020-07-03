@@ -38,7 +38,7 @@ class Navigation extends Component {
 
             <Fragment>
 
-                <Navbar expand="lg" fixed="top" className={scroll ? 'nav-scroll ' : "nav-nonscroll "}  >
+                <Navbar expand="lg" fixed="top" className={scroll ? 'nav-scroll ' : "nav-nonscroll "} id="nav-padding" >
                     <Navbar.Brand className="nav-logo" href="/home" className='ml-2' >
                         <img src="img/logo.png" id="logo-img" />
                     </Navbar.Brand>

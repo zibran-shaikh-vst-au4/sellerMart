@@ -35,7 +35,7 @@ class Plans extends Component {
             <Fragment>
                 <div className="container " style={{marginTop:'40px', marginBottom:'40px'}}>
                     <div className="row">
-                        <div className="col-md-6 mt-5">
+                        <div className="col-md-6 col-sm-12 col-xs-12 mt-5">
                             <h3>Vengurlekars Chaitra Spaces</h3>
                            {/*  <h4>Decorated Flats in Vengurlekars Chaitra</h4> */}
                             <p style={{ fontSize: '15px' }}>We are waiting for you in our sales office for having all these opportunities
@@ -46,12 +46,12 @@ class Plans extends Component {
                             <p style={{ fontSize: '20px' }}>Social Area : 860 metre square</p>
 
                         </div>
-                        <div className='col-md-6'>
+                        <div className='col-md-6 col-sm-12 col-xs-12'>
                             
                             <a className="btn btn-lg m-2" style={{borderBottom:'2px solid #D0A24C'}}onClick={this.handleOne}>1 Room 47m</a>
                             <a className="btn btn-lg m-2" style={{borderBottom:'2px solid #D0A24C'}}onClick={this.handleTwo}>1 Room 67m</a>
                             <a className="btn btn-lg m-2"style={{borderBottom:'2px solid #D0A24C'}}onClick={this.handleThree}>1 Room 90m</a>
-                            <img className='mt-5'src={this.state.image}></img>
+                            <img className='col-md-12 col-sm-12 col-xs-12 mt-5'src={this.state.image}></img>
                         </div>
                     </div>
                 </div>
