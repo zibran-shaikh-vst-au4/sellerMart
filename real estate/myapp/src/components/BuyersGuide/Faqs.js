@@ -30,6 +30,10 @@ Super Built-Up Area: This includes the built-up areas such as the lobby, lifts, 
                                         License is defined in Section 52 of the Indian Easements Act,1882. License does not allow any interest in the premises on the licensee’s part. It merely gives the licensee the right to use and occupy the premises for a limited duration.
 A lease deed needs to be stamped and registered. The amount payable towards the lease deed’s stamp duty is more than that payable towards the Leave and License’s. For a period exceeding three years, the stamp duty is same for both agreements.</p>
                                     </details>
+                                    <details  data-aos="fade-up" className="text-justify">
+                                        <summary className="text-justify about-para" style={{ color: '#D0A24C' }}>Q3.What are the implications of entering into a lease agreement?</summary>
+                                        <p className="about-para"> There are various implications of entering into a lease agreement such as you have to pay the stamp duty, the lease agreement has to be registered etc.</p>
+                                    </details>
                                 </div>
                             </div>
                         </div>
