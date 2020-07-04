@@ -11,14 +11,14 @@ class Tips extends Component {
                             <div className="faqs-text">
                                 <div className="section-title text-center">
                                     <h3>Buying Tips</h3>
-                                    <h3>The first step towards buying a property starts from being able to identify the one that suits your needs and fits your budget. It is important to select the property depending on following criteria:</h3>
+                                    <h4>The first step towards buying a property starts from being able to identify the one that suits your needs and fits your budget. It is important to select the property depending on following criteria:</h4>
 
-                                    <details style={{ textAlign: 'left' }}>
+                                    <details data-aos="fade-up" style={{ textAlign: 'left' }}>
                                         <summary className="text-justify about-para" style={{ textAlign: 'left', color: '#D0A24C' }}>Location of site</summary>
                                         <p className="about-para"> While choosing the location, you need to keep the following parameters in mind like proximity to the main roads, bus stops, railway lines, transportation services, civic amenities like educational institutions, park, police station, temples, community hall, hospitals, and auditorium within reach.</p>
                                     </details>
 
-                                    <details style={{ textAlign: 'left' }}>
+                                    <details data-aos="fade-up" style={{ textAlign: 'left' }}>
                                         <summary className="text-justify about-para" style={{ textAlign: 'left', color: '#D0A24C' }}>Affordability</summary>
                                         <p className="about-para">  Does the location fit your budget?</p>
                                     </details>

@@ -42,7 +42,7 @@ class Navigation extends Component {
                     <Navbar.Brand className="nav-logo" href="/home" className='ml-2' >
                         <img src="img/logo.png" id="logo-img" />
                     </Navbar.Brand>
-                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                    <Navbar.Toggle aria-controls="basic-navbar-nav" id="navi" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav >
                             <Nav.Link id='nav-link' href="/home">Home</Nav.Link>

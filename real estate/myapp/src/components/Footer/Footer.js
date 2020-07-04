@@ -1,14 +1,14 @@
-import React, { Component, Fragment } from 'react'
-import { NavLink } from 'react-router-dom'
+import React, { useEffect, Fragment } from 'react'
 
-class Footer extends Component {
 
-    render() {
+const Footer = () => {
 
-        return (
-            <Fragment>
-                <div id="footer">
-                   {/*  <div className="container mt-1 text-center">
+    
+
+    return (
+        <Fragment>
+            <div id="footer">
+                {/*  <div className="container mt-1 text-center">
                         <div className="row">
                             <div className="col-md-12" style={{ color: 'white' }}>
 
@@ -21,8 +21,8 @@ class Footer extends Component {
 
 
 
-                    <div id="contact" style={{ background: '#231f20', padding: '0px' }}>
-                        {/* <div className="container" >
+                <div id="contact-footer" style={{ background: '#231f20', padding: '0px' }}>
+                    {/* <div className="container" >
                             <div className="row mb-1">
                                 <div className="col-md-3 mx-auto" >
 
@@ -70,76 +70,76 @@ class Footer extends Component {
                                 
                             </div>
                         </div>*/}
-                        <div className="container contact-page justify-center" id="box">
+                    <div className="container contact-page-footer justify-center" id="box">
 
-                            <div className="box">
-                                <div className="icon">
-                                    <i className="fa fa-phone" aria-hidden='true'> </i>
-                                </div>
-                                <div className="content">
-                                    
-                                    <p>+91 98200 46711 </p>
-                                    <p> +91 98920 09454</p>
+                        <div className="box" data-aos="fade-up-right">
+                            <div className="icon">
+                                <i className="fa fa-phone" aria-hidden='true'> </i>
+                            </div>
+                            <div className="content">
 
-                                </div>
+                                <p>Phone : +91 98200 46711 , +91 98920 09454 </p>
+                               
 
                             </div>
 
-                            <div className="box">
-                                <div className="icon">
-                                    <i className="fa fa-map-marker" aria-hidden='true'> </i>
-                                </div>
-                                <div className="content">
-                                    
-                                    <p>
-                                        VENGURLEKARS CHAITRA
-                                        BLDG-26
-                                        OPP ANDHERI SPORT COMPLEX
-                                        AZAD NAGAR
-                                        JP ROAD
-                                        ANDHERI (W)
+                        </div>
+
+                        <div className="box" data-aos="fade-up">
+                            <div className="icon">
+                                <i className="fa fa-map-marker" aria-hidden='true'> </i>
+                            </div>
+                            <div className="content">
+
+                                <p>
+                                   Address : VENGURLEKARS CHAITRA
+                                    BLDG-26
+                                    OPP ANDHERI SPORT COMPLEX
+                                    AZAD NAGAR
+                                    JP ROAD
+                                    ANDHERI (W)
                                     MUMBAI 53.</p>
 
-                                </div>
                             </div>
-                            <div className="box">
-                                <div className="icon">
-                                    <i className="fa fa-envelope-o " aria-hidden='true' > </i>
-                                </div>
-                                <div className="content">
-                                    
-                                    <p>info@vengurlekars.net</p>
+                        </div>
+                        <div className="box" data-aos="fade-up-left">
+                            <div className="icon">
+                                <i className="fa fa-envelope-o " aria-hidden='true' > </i>
+                            </div>
+                            <div className="content " id="email-content-footer">
 
-                                </div>
+                                <p>Email : info@vengurlekars.net</p>
 
                             </div>
 
-
-
-                        </div>
-                    </div>
-
-                    <div className="container-fluid text-center social-media" >
-                        <h5 style={{ color: '#D0A24C' }}>Social Avenues</h5>
-                        <div className="icons text-center mb-5">
-
-                            <a className="p-4" > <i className="fa fa-facebook fa-1x"></i></a>
-                            <a className="p-4"> <i className="fa fa-twitter fa-1x"></i></a>
-                            <a className="p-4"> <i className="fa fa-instagram fa-1x"></i></a>
-                            <a className="p-4"> <i className="fa fa-whatsapp fa-1x"></i></a>
                         </div>
 
-                        <p>&copy; 2020 Vengurlekars . All Rights Reserved</p>
+
 
                     </div>
+                </div>
 
-                </div >
+                <div className="container-fluid text-center social-media" >
+                    <h5 style={{ color: '#D0A24C' }} data-aos="fade-right">Social Avenues</h5>
+                    <div className="icons text-center mb-5"data-aos="fade-left">
+
+                        <a className="p-4" > <i className="fa fa-facebook fa-1x"></i></a>
+                        <a className="p-4"> <i className="fa fa-twitter fa-1x"></i></a>
+                        <a className="p-4"> <i className="fa fa-instagram fa-1x"></i></a>
+                        <a className="p-4"> <i className="fa fa-whatsapp fa-1x"></i></a>
+                    </div>
+
+                    <p>&copy; 2020 Vengurlekars . All Rights Reserved</p>
+
+                </div>
+
+            </div >
 
 
 
-            </Fragment>
-        )
-    }
+        </Fragment>
+    )
+
 }
 
 export default Footer

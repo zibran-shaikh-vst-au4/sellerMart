@@ -16,7 +16,7 @@ class List extends Component {
                                 <h4>List of Documents Required From The Societies For Redevelopment :</h4>
                                 <div className="list-style">
                                     <div className="col-lg-12 col-sm-12 col-xs-12 mt-5">
-                                        <ul className="text-justify about-para">
+                                        <ul data-aos="fade-up" className="text-justify about-para">
                                             <li>Society registration certificate.</li>
                                             <li>Approved building plan.</li>
                                             <li>Conveyance deed/ lease deed/ sale deed.</li>

@@ -15,7 +15,7 @@ class Contact extends Component {
 
                 </img>
 
-                <div className="container contact-page justify-center mt-2 mb-5" id="box">
+                <div data-aos="fade-left"className="container contact-page justify-center mt-2 mb-5" id="box">
 
                     <div className="box">
                         <div className="icon">
@@ -70,7 +70,7 @@ class Contact extends Component {
                     </div>
                 </div>
 
-                <div className="container mt-5">
+                <div data-aos="fade-right"className="container mt-5">
                     <div className="row" style={{width:"100%"}}>
                         <div className="col-md-12 col-sm-12 col-xs-12 text-center">
 
