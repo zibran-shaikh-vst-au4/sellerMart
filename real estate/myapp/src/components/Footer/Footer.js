@@ -72,7 +72,7 @@ const Footer = () => {
                         </div>*/}
                     <div className="container contact-page-footer justify-center" id="box">
 
-                        <div className="box" /* data-aos="fade-up-right" */>
+                        <div className="box" data-aos="fade-up-right">
                             <div className="icon">
                                 <i className="fa fa-phone" aria-hidden='true'> </i>
                             </div>
@@ -85,7 +85,7 @@ const Footer = () => {
 
                         </div>
 
-                        <div className="box" /* data-aos="fade-up" */>
+                        <div className="box" data-aos="fade-up">
                             <div className="icon">
                                 <i className="fa fa-map-marker" aria-hidden='true'> </i>
                             </div>
@@ -102,7 +102,7 @@ const Footer = () => {
 
                             </div>
                         </div>
-                        <div className="box" /* data-aos="fade-up-left" */>
+                        <div className="box" data-aos="fade-up-left">
                             <div className="icon">
                                 <i className="fa fa-envelope-o " aria-hidden='true' > </i>
                             </div>
@@ -120,8 +120,8 @@ const Footer = () => {
                 </div>
 
                 <div className="container-fluid text-center social-media" >
-                    <h5 style={{ color: '#D0A24C' }} /* data-aos="fade-right" */>Social Avenues</h5>
-                    <div className="icons text-center mb-5"/* data-aos="fade-left" */>
+                    <h5 style={{ color: '#D0A24C' }} data-aos="fade-up">Social Avenues</h5>
+                    <div className="icons text-center mb-5"data-aos="fade-up">
 
                         <a className="p-4" > <i className="fa fa-facebook fa-1x"></i></a>
                         <a className="p-4"> <i className="fa fa-twitter fa-1x"></i></a>

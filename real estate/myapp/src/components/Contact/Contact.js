@@ -23,8 +23,8 @@ class Contact extends Component {
                         </div>
                         <div className="content">
                            
-                            <p>+91 98200 46711 </p>
-                            <p> +91 98920 09454</p>
+                            <p>Phone : +91 98200 46711 ,  +91 98920 09454 </p>
+                            
 
                         </div>
 
@@ -36,7 +36,7 @@ class Contact extends Component {
                         </div>
                         <div className="content">
                             
-                            <p> VENGURLEKARS CHAITRA
+                            <p>Address : VENGURLEKARS CHAITRA
                                         BLDG-26
                                         OPP ANDHERI SPORT COMPLEX
                                         AZAD NAGAR
@@ -52,7 +52,7 @@ class Contact extends Component {
                         </div>
                         <div className="content">
                             
-                            <p>info@vengurlekars.net</p>
+                            <p>Email : info@vengurlekars.net</p>
 
                         </div>
 
