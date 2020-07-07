@@ -27,12 +27,12 @@ const App = () => {
   
   useEffect(() => {
 
-    Aos.init({ duration: 2000, disable: "mobile", disable: 'phone', disable: 'tablet' })
+    Aos.init({ duration: 2000, disable: "mobile", /* disable: 'phone', disable: 'tablet'  */})
   }, [])
 
   return (
     <Fragment>
-      <Lines color='#D0A24C' background="#231f20" animation="slide-down" />
+      <Lines color='#D0A24C' background="#231f20" animation="slide-down" time={1000}/>
       <Router>
 
         <Navigation />
