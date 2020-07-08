@@ -1366,7 +1366,7 @@ color: #777;
 	.contact-page-footer .box .content p{
 		margin:0;
 		padding:0;
-		color:#231f20;
+		color:#D0A24C !important;
 		font-weight: 600;	
 		font-size: 12px;
 	}
@@ -1410,6 +1410,10 @@ color: #777;
 	padding:10px;
 
 }
+#project-map a:hover{
+	border-bottom: 2px solid #000000;
+	color:#000000
+}
 #project-map a{
 	margin:5px
 }
@@ -1436,6 +1440,17 @@ color: #777;
 #project-floormap p{
 	font-size:14px
 }
+#project-floormap a:hover{
+	border-bottom: 2px solid #000000;
+	color:#000000
+}
 
 
 
+.project-page{
+	padding:10px 0px 10px;
+	margin-top: 20px;
+	background-image: url("https://demo2wpopal.b-cdn.net/maisonco/wp-content/uploads/2019/05/landing_bg2.png");
+	background-size: cover;
+	background-color: #231f20;
+}

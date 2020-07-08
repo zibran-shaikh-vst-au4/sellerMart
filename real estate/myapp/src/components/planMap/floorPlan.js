@@ -39,11 +39,11 @@ class FloorPlan extends Component {
                     <div className="row mt-5">
                     <div className='col-md-8 col-sm-12 col-xs-12 text-center' data-aos="fade-right" style={{ cursor: 'pointer' }}>
                             <div className="a-tags col-md-6 col-sm-6 col-xs-6 m-auto ">
-                                <a onClick={this.handleOne}><span>67 metre |</span></a>
-                                <a onClick={this.handleTwo}><span>79 metre |</span></a>
+                                <a onClick={this.handleOne}><span>67 metre </span></a>
+                                <a onClick={this.handleTwo}><span>79 metre </span></a>
                                 <a onClick={this.handleThree}><span>90 metre</span></a>
                             </div>
-                            <img className='col-md-8 col-sm-12 col-xs-12 m-2' src={this.state.image} ></img>
+                            <img className='col-md-8 col-sm-12 col-xs-12 m-5' src={this.state.image} ></img>
                         </div>
                         <div className='col-md-4 col-sm-12 col-xs-12' data-aos="fade-left" style={{ cursor: 'pointer' }}>
                             <h3>Vegurlekar's Chaitra</h3>

@@ -108,7 +108,7 @@ const Footer = () => {
                             </div>
                             <div className="content " id="email-content-footer">
 
-                                <p>Email : info@vengurlekars.net</p>
+                                <p>Email-id : info@vengurlekars.net</p>
 
                             </div>
 

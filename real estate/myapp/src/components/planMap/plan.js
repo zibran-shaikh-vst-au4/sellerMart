@@ -40,8 +40,8 @@ class Plans extends Component {
              
                         <div className='col-md-12 col-sm-12 col-xs-12 text-center' style={{cursor:'pointer'}}>
                             <div className="a-tags">
-                            <a onClick={this.handleOne}><span>67 metre |</span></a>
-                            <a onClick={this.handleTwo}><span>79 metre |</span></a>
+                            <a onClick={this.handleOne}><span>67 metre </span></a>
+                            <a onClick={this.handleTwo}><span>79 metre </span></a>
                             <a onClick={this.handleThree}><span>90 metre</span></a>
                             </div>
                             <img className='col-md-12 col-sm-12 col-xs-12'src={this.state.image} ></img>
