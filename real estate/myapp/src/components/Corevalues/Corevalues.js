@@ -6,7 +6,7 @@ class Corevalues extends Component {
             <div id="services" className="text-center">
                 <img className="shared-image"
                     style={{ maxWidth: '100%' }}
-                    src="../img/34.jpg">
+                    src="https://res.cloudinary.com/uploadfiles/image/upload/v1594210709/rsz_34_bbzq43.jpg">
                 </img>
                 <div className="container mt-5 mb-5">
                     <div className="section-title">

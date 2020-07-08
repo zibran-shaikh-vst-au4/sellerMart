@@ -22,7 +22,7 @@ const Home = () => {
                             <Carousel.Item className="animate__animated animate__flip animate__delay-2s">
                                 <img
                                     className="d-block w-100"
-                                    src="/img/final.jpg"
+                                    src="https://res.cloudinary.com/uploadfiles/image/upload/v1594211230/rsz_final_-_living_xekywv.jpg"
                                     alt="First slide"
                                     height='100%'
                                 
@@ -34,7 +34,7 @@ const Home = () => {
                             <Carousel.Item className="animate__animated animate__flipInY ">
                                 <img
                                     className="d-block w-100"
-                                    src="/img/compound walls views.jpg"
+                                    src="https://res.cloudinary.com/uploadfiles/image/upload/v1594211376/rsz_compound_walls_views_wcfb7i.jpg"
                                     height='100%'
                                 />
 
@@ -69,7 +69,7 @@ const Home = () => {
                             <div className="container">
                                 <div className="row mb-5">
 
-                                    <div data-aos="fade-right" className="col-xs-12 col-sm-12 col-md-6"><img src="img/day view.jpg" className="img-responsive" id="img-project-home" /></div>
+                                    <div data-aos="fade-right" className="col-xs-12 col-sm-12 col-md-6"><img src="https://res.cloudinary.com/uploadfiles/image/upload/v1594209025/day_view_aco0gh.jpg" className="img-responsive" id="img-project-home" /></div>
                                     <div data-aos="fade-left" className="col-xs-12 col-sm-12 col-md-6">
                                         <div className="project-text">
                                             <p className="mt-2 mb-2" style={{ fontSize: '16px' }}><li>Vengurlekars Chaitra</li> </p>

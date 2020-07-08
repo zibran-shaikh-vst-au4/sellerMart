@@ -7,7 +7,7 @@ class Projects extends Component {
             <div id="project">
                 <img className="shared-image"
                     style={{ maxWidth: '100%' }}
-                    src="../img/34.jpg">
+                    src="https://res.cloudinary.com/uploadfiles/image/upload/v1594210709/rsz_34_bbzq43.jpg">
 
                 </img>
 
@@ -15,7 +15,7 @@ class Projects extends Component {
                     <h4 className="pb-2 text-center mt-5">PROJECTS</h4>
                     <div className="row  mb-5">
 
-                        <div data-aos="fade-right" className="col-xs-12 col-sm-12 col-md-6"> <img src="img/day view.jpg" className="img-responsive " id="img-project" /> </div>
+                        <div data-aos="fade-right" className="col-xs-12 col-sm-12 col-md-6"> <img src="https://res.cloudinary.com/uploadfiles/image/upload/v1594209025/day_view_aco0gh.jpg" className="img-responsive " id="img-project" /> </div>
                         <div data-aos="fade-left" className="col-xs-12 col-sm-12 col-md-6">
                             <div className="project-text">
                                 <p className="mt-2 mb-2" style={{ fontSize: '16px' }}><li>Vengurlekars Chaitra</li></p>

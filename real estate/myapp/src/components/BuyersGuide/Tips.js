@@ -4,7 +4,7 @@ class Tips extends Component {
     render() {
         return (
             <div id="faqs">
-                <img className="shared-image" src="../img/34.jpg" alt="images for tips" style={{ maxWidth: '100%' }} />
+                <img className="shared-image" src="https://res.cloudinary.com/uploadfiles/image/upload/v1594210709/rsz_34_bbzq43.jpg" alt="images for tips" style={{ maxWidth: '100%' }} />
                 <div className="container">
                     <div className="row mt-5 mb-5">
                         <div className="col-xs-12 col-md-12">
