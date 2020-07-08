@@ -15,7 +15,7 @@ class Faqs extends Component {
                             <div className="faqs-text">
                                 <div className="section-title text-center">
                                     <h3>Faqs</h3>
-                                    <h4>As you buy a new home, these questions will answer all common queries about buying and owing a property in India. Use this guide to acquaint yourself with rules, laws and important information.</h4>
+                                    <p className="about-para">As you buy a new home, these questions will answer all common queries about buying and owing a property in India. Use this guide to acquaint yourself with rules, laws and important information.</p>
 
                                     <details data-aos="fade-up" className="text-justify mt-5">
                                         <summary className="text-justify about-para" style={{ color: '#D0A24C' }}>Q1.What is the difference between Built-Up Area, Super Built-Up Area, and Carpet Area?</summary>

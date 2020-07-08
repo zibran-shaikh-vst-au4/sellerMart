@@ -121,7 +121,7 @@ const Footer = () => {
 
                 <div className="container-fluid text-center social-media" >
                     <h5 style={{ color: '#D0A24C' }} data-aos="fade-up">Social Avenues</h5>
-                    <div className="icons text-center mb-5"data-aos="fade-up">
+                    <div className="icons text-center mb-5">
 
                         <a className="p-4" > <i className="fa fa-facebook fa-1x"></i></a>
                         <a className="p-4"> <i className="fa fa-twitter fa-1x"></i></a>

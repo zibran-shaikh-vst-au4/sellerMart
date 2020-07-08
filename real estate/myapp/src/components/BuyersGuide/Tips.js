@@ -11,7 +11,7 @@ class Tips extends Component {
                             <div className="faqs-text">
                                 <div className="section-title text-center">
                                     <h3>Buying Tips</h3>
-                                    <h4>The first step towards buying a property starts from being able to identify the one that suits your needs and fits your budget. It is important to select the property depending on following criteria:</h4>
+                                    <p className="about-para">The first step towards buying a property starts from being able to identify the one that suits your needs and fits your budget. It is important to select the property depending on following criteria:</p>
 
                                     <details data-aos="fade-up" style={{ textAlign: 'left' }}>
                                         <summary className="text-justify about-para" style={{ textAlign: 'left', color: '#D0A24C' }}>Location of site</summary>
