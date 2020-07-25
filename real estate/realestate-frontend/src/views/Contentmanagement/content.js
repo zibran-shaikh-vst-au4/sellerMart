@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState, useEffect, Fragment } from "react";
+
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 //import InputLabel from "@material-ui/core/InputLabel";
@@ -14,10 +15,17 @@ import CardHeader from "../../components/Card/CardHeader.js";
 //import CardAvatar from "components/Card/CardAvatar.js";
 import CardBody from "../../components/Card/CardBody.js";
 import CardFooter from "../../components/Card/CardFooter.js";
+import { CardMedia } from '@material-ui/core';
+import axios from 'axios';
 import { Typography } from "@material-ui/core";
 import { Button as CustomButtons } from "@material-ui/core";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {  faPlus } from '@fortawesome/free-solid-svg-icons'
+import { faPlus } from '@fortawesome/free-solid-svg-icons'
+import {stateMapper} from "../../redux/reducers/rootReducer";
+import {connect} from "react-redux";
+import {useHistory} from "react-router-dom"
+
+
 
 
 //import avatar from "assets/img/faces/marc.jpg";
@@ -43,34 +51,46 @@ const styles = {
 
 const useStyles = makeStyles(styles);
 
-export default function Content() {
+ function Content(props) {
     const classes = useStyles();
-    const [showing, setShowing] = React.useState(false)
+    const [banImg, setBanImg] = useState([])
+    const history = useHistory()
 
-    
-    const handleForm = () => {
-        setShowing(!showing)
+const loadSlider =async ()=>{
+         await axios.get(`http://localhost:6969/banner`)
+            .then(res => {
+               /*  console.log(res.data.banner) */
+                setBanImg(res.data.banner)
+                /* console.log('ban img', banImg) */
+            })
+            .catch(err =>
+                console.log(`err ${err}`))
+}
+
+    useEffect(() => {
+   loadSlider()
+    }, [])
+
+    const handleEdit = id =>{
+         history.push(`/contentmanagement/edit/${id}`)
     }
-    const handleSubmit = () => {
-        setShowing(false)
+    const handleDelete = id =>{
+        /* console.log("delete", id) */
     }
 
     return (
         <div>
-            <Sidebar/>
+            <Sidebar />
             <GridContainer justify={"center"}>
                 <GridItem xs={12} sm={12} md={6} >
-                <CustomButtons variant="contained"
-                        style={{ background: "linear-gradient(60deg, #ab47bc, #8e24aa)", color: "white" }}
-                        onClick={handleForm}>Add content<FontAwesomeIcon className='ml-2 mb-2' icon={faPlus} /></CustomButtons>
-                    {showing?
+
                     <Card>
                         <CardHeader color="primary">
                             <h4 className={classes.cardTitleWhite}>Home</h4>
                             <p className={classes.cardCategoryWhite}>Add details for Home page</p>
                         </CardHeader>
                         <CardBody>
-                            <GridContainer>
+                            {/*  <GridContainer>
                                 <GridItem xs={12} sm={12} md={12}>
                                     <CustomInput
                                         labelText="add link for website"
@@ -94,19 +114,38 @@ export default function Content() {
                                         type="url"
                                     />
                                 </GridItem>
-                            </GridContainer>
+                            </GridContainer> */}
 
+                            {banImg.map(ban => {
+                                return (
+                                    <Fragment>
+                                        <CardMedia >
+                                            <img key={ban._id} src={ban.image}
+                                                width="50%" height="50%"
+                                                alt="recipe thumbnail" />
+                                        </CardMedia>
+                                        <Button color="primary" onClick={()=>handleEdit(ban._id)}>Edit</Button>
+                                        <Button color="primary" onClick={()=>handleDelete(ban._id)}>Delete</Button>
+                                    </Fragment>
+                                )
+
+                            })
+
+                            }
 
 
 
 
                         </CardBody>
-                        <CardFooter>
-                            <Button color="primary" type="submit" onClick={handleSubmit}>Add</Button>
-                        </CardFooter>
-                    </Card>: null}
+                        {/* <CardFooter>
+                            <Button color="primary" type="submit" >Add</Button>
+                        </CardFooter> */}
+                    </Card>
                 </GridItem>
             </GridContainer>
         </div >
     );
 }
+
+
+export default connect(stateMapper)(Content)

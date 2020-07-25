@@ -1,8 +1,14 @@
-
 import AuthReducer from './AuthReducer'
+import sliderReducer from "./sliderImageReducer"
 import { combineReducers } from 'redux'
 
 const rootReducer = combineReducers({
-        auth: AuthReducer
+        auth: AuthReducer,
+        slide: sliderReducer
 })
-export default rootReducer;
+const stateMapper = state => state
+
+export {
+        rootReducer,
+        stateMapper
+}
