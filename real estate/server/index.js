@@ -56,6 +56,18 @@ const enquiry= require('./routes/enquiry');
 app.use('/form', enquiry)
 const banner = require('./routes/Banner');
 app.use('/banner', banner)
+const benefit = require('./routes/benefit');
+app.use('/benefit', benefit)
+const potential = require('./routes/potential');
+app.use('/potential', potential)
+const list = require('./routes/list');
+app.use('/list', list)
+const faqs = require('./routes/faqs');
+app.use('/faqs', faqs)
+const tips = require('./routes/tips');
+app.use('/tips', tips)
+const loan = require('./routes/loan');
+app.use('/loan', loan)
 
 //server connection
 app.listen(PORT, ()=> console.log(`Connection to the server was successful at port ${PORT}`))

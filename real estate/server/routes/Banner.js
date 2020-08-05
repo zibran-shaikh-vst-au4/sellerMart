@@ -59,6 +59,25 @@ router.get('/', async (req, res) => {
     }
 })
 
+router.get('/:id', async (req, res) => {
+    try {
+        const banner = await Banner.findById(req.params.id)
+        res.status(200).json({
+            success: true,
+            msg: "banner fetched",
+            banner
+        })
+
+    } catch{
+        res.status(400).json({
+            success: false,
+            msg: "banner cannot be fetched",
+
+        })
+
+    }
+})
+
 router.put('/:id', async (req, res) => {
     try {
         const {image } = req.body
