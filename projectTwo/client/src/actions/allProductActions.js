@@ -18,8 +18,6 @@ export const addAllProducts = (allproducts) => {
 }
 
 
-
-
 export const fetchAllProductsRequest = () => {
     return {
         type: 'FETCH_ALL_PRODUCTS_REQUEST'

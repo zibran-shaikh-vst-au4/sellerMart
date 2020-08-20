@@ -20,8 +20,11 @@ let Product = db.define("product", {
         defaultValue: '0'
     },
     publish: {
-        type: Sequelize.STRING,
-        defaultValue: 'No'
+        type: Sequelize.BOOLEAN,
+       
+    },
+    coverImage:{
+        type: Sequelize.STRING
     }
 });
 

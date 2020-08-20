@@ -24,6 +24,7 @@ class Login extends Component {
         this.props.setLogin(JSON.stringify(result.data.user));
          /*  NotificationManager.success(result.data.msg); */
          this.props.history.push("/stats");
+         console.log("users", result)
 
       })
       .catch(err => {

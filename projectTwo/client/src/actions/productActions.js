@@ -6,9 +6,10 @@ export const addProject = (products) => {
         axios.post('http://localhost:3010/product', products)
             .then(response => {
                 console.log(response)
+            
             })
             .catch(error => {
-                console.log(error)
+                console.log(error.response)
             })
         dispatch({
             type: 'ADD_PRODUCT',

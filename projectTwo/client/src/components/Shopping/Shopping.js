@@ -91,9 +91,10 @@ class Shopping extends Component {
                                     {
                                         cartProducts && cartProducts.map(product => {
                                             return (
+                                           
                                                 <div className="p-1">
                                                     <div className="card box p-1 mb-2" style={{ width: '16rem', color: '#071e3d', backgroundColor: '#e4fcf9' }} key={product.id}>
-                                                        <img class="card-img-top" src="https://images-na.ssl-images-amazon.com/images/I/71J2W6TlWDL._SL1500_.jpg" alt=""
+                                                        <img class="card-img-top" src={product.coverImage} alt=""
                                                             style={{ width: '100%', height: '15vw', objectFit: 'cover' }} />
                                                         <div className="card-body" style={{ padding: '10px' }}>
                                                             <span className="card-title">{product.product_name}</span>
